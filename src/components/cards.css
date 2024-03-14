@@ -93,7 +93,7 @@ font-size: 1.5rem;
   .card-one {
 display: grid;
 grid-template-columns: 1fr;
-margin-top: 60rem;
+margin-top: 65rem;
 height: 58vh;
 width: 100%;
 
@@ -127,6 +127,6 @@ width: 100%;
   padding: 0.5rem;
 }
 .form input{
-  padding: 15px 50px;
+  padding: 10px 30px;
 }
 }
