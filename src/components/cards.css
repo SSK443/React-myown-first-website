@@ -1,54 +1,62 @@
-.card-one{
- display: grid;
- 
- margin-top: 8rem;
- width: 100%;
- height: 50vh;
- grid-template-columns: 40% 28%;
- justify-content:center;
-align-items: center;
+.card-one {
+  display: grid;
+
+  margin-top: 8rem;
+  width: 100%;
+  height: 50vh;
+  grid-template-columns: 40% 28%;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(25, 24, 24);
- color: white;
-flex-wrap: wrap;
+  color: white;
+  flex-wrap: wrap;
 }
-.one{
+
+.one {
   text-align: center;
   padding: 2rem;
   position: relative;
   right: 6rem;
 
 }
+
 .one h2 {
   font-weight: bold;
   line-height: 3.5rem;
 }
-.one p{
+
+.one p {
   font-size: 0.9rem;
 }
-.form{
+
+.form {
   position: relative;
   left: 1rem;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   height: 15rem;
   text-align: center;
   display: inline-block;
   line-height: 2rem;
 }
-.form h2{
+
+.form h2 {
   line-height: 4rem;
-  color:#00B6d1 ;
+  color: #00B6d1;
   font-weight: 900;
-  
+
 }
-.form label{
+
+.form label {
   color: black;
   font-size: 0.8rem;
 }
-.form input{
+
+.form input {
   padding: 15px 60px;
   border: none;
-    box-shadow: 0px 4px 20px 0px #dadede;}
+  box-shadow: 0px 4px 20px 0px #dadede;
+}
 
 .form button {
   margin-top: 1rem;
@@ -59,7 +67,8 @@ flex-wrap: wrap;
   border: none;
   font-weight: 900;
 }
-.card-two{
+
+.card-two {
   display: grid;
   width: 100%;
   background-color: rgb(25, 24, 24);
@@ -67,76 +76,93 @@ flex-wrap: wrap;
   height: 50vh;
 
 }
-.one-line{
-  width:75%;
+
+.one-line {
+  width: 75%;
   margin: auto;
   text-align: start;
-  
+
 }
-.one-line h1{
-font-size: 1.5rem;
+
+.one-line h1 {
+  font-size: 1.5rem;
   line-height: 3rem;
 }
-.one-line h2{
+
+.one-line h2 {
   font-size: 0.9rem;
   font-weight: 900;
   line-height: 2rem;
 }
-.one-line h1 span{
-  color:  #00B6d1;
+
+.one-line h1 span {
+  color: #00B6d1;
 }
-.one-line h2 span{
-  color:#00B6d1 ;
+
+.one-line h2 span {
+  color: #00B6d1;
 }
+
 @media (max-width:500px) {
 
   .card-one {
-display: grid;
-grid-template-columns: 1fr;
-margin-top: 80rem;
-height: 80vh;
-width: 100%;
-margin-bottom: 2rem;
-background-color: rgb(18, 17, 17);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 85rem;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: rgb(18, 17, 17);
 
   }
-  .one{
-   position: relative;
-   left: 0.6rem;
-   text-align: center;
-   padding: 1rem;
-   
+
+  .one {
+    position: relative;
+    left: 2rem;
+
+    width: 80%;
+
   }
-  .one h2{
-    line-height: 3.1rem;
+
+  .one h2 {
+    line-height: 2.1rem;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
-  .form{
+  .one p {
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+
+  .form {
     top: 1rem;
-    margin-right: 2rem;
+    margin-left: 1.6rem;
     margin-bottom: 4rem;
     position: relative;
     bottom: 3rem;
+    width: 80%;
   }
 
-    .card-two{
-      display: grid;
-      grid-template-columns: 1fr;
-      justify-content: center;
-          height: 80vh;
-      position: relative;
-      bottom: 5rem;
-      background-color: rgb(18, 17, 17);
-      
-    }
-.one-line{
-  text-align: justify;
-  padding: 0.5rem;
-}
-.form input{
-  padding: 15px 40px;
-}
+  .card-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+    bottom: 5rem;
+    background-color: rgb(18, 17, 17);
+
+  }
+
+  .one-line {
+    text-align: justify;
+    padding: 0.5rem;
+  }
+
+  .form input {
+    padding: 15px 40px;
+  }
 
 }
