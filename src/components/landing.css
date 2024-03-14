@@ -38,7 +38,7 @@ font-weight: 900;
 @media (max-width:500px) {
 .container{
   position: relative;
-  bottom: 90px;
+  bottom: 6rem;
   height: 11rem;
   
 
@@ -47,16 +47,18 @@ font-weight: 900;
 .box{
   width: 80%;
   margin: auto;
+  
 }
 .box h1{
   font-size: 1.8rem;
   text-align: justify;
-  padding-top: 5px;
+ position: relative;
+ top: 1rem;
   
 }
 .box h2{
   position: relative;
-  top: 20px;
+  top: 2.5rem;
   font-size: 1.3rem;
   text-align: justify;
   
@@ -65,5 +67,6 @@ font-weight: 900;
   position: relative;
   padding: 10px 10px;
   border: none;
+  top: 1.2rem;
 }
   }
