@@ -39,7 +39,7 @@ font-weight: 900;
 .container{
   position: relative;
   bottom: 6rem;
-  height: 11rem;
+  height: rem;
   
 
   
@@ -50,23 +50,25 @@ font-weight: 900;
   
 }
 .box h1{
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: center;
  position: relative;
  top: 1rem;
+  padding: 0.4rem;
   
 }
 .box h2{
   position: relative;
-  top: 2.5rem;
+  top: 3rem;
   font-size: 1.3rem;
   text-align: justify;
+  padding: 0.5rem;
   
 }
 .box button{
   position: relative;
   padding: 10px 10px;
   border: none;
-  top: 1.2rem;
+  top: 2rem;
 }
   }
