@@ -1,0 +1,144 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 140vh;
+  width: 70%;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  gap: 15px 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+
+}
+
+.second-heading {
+  margin-top: 80px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  left: 10rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  margin-right: 390px;
+
+}
+
+.second-heading img {
+  height: 60px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 1rem;
+
+
+
+}
+
+.second-heading h1 {
+  font-size: 1.5rem;
+}
+
+.second-heading span {
+  font-size: 0.9rem;
+}
+
+.g-box {
+  height: 200px;
+  text-align: center;
+  box-shadow: 0px 11px 20px 0px #d5cccc;
+
+  border-radius: 5px;
+  text-align: center;
+
+
+
+
+}
+
+.g-box h1 {
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.g-box p {
+  font-size: 0.8rem;
+}
+
+.b1,
+.b2 {
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-top: 40px;
+
+}
+
+.b1 {
+  background-color: #00B6d1;
+  font-weight: bold;
+  margin-right: 5px;
+
+}
+
+.b2 {
+  background-color: rgb(27, 139, 27);
+  font-weight: 900;
+}
+
+.box-g button {
+  position: relative;
+  top: 20px;
+
+}
+
+@media (max-width:500px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+
+
+  
+
+  
+
+  }
+
+  .g-box {
+    position: relative;
+    bottom: 50px;
+  }
+  .second-heading{
+    display: flex;
+  width: 100%;justify-content: center;
+  height: 7rem;
+
+
+  }
+  .left{
+    width: 20%;
+    
+  }
+  .right{
+    width: 80%;
+    position: relative;
+    bottom: 10px;
+
+  }
+  .right h1{
+    font-size: 1rem;
+  }
+
+
+  
+
+
+
+}

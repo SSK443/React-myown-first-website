@@ -1,6 +1,8 @@
 
 import './App.css'
+import Cards from './components/Cards'
 import Landing from './components/Landing'
+import Languages from './components/Languages'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <>
       <Navbar/>
       <Landing/>
+      <Languages  />
+      <Cards/>
     </>
   )
 }
