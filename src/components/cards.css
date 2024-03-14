@@ -93,8 +93,8 @@ font-size: 1.5rem;
   .card-one {
 display: grid;
 grid-template-columns: 1fr;
-margin-top: 65rem;
-height: 58vh;
+margin-top: 70rem;
+height: 70vh;
 width: 100%;
 
   }
@@ -117,7 +117,7 @@ width: 100%;
       display: grid;
       grid-template-columns: 1fr;
       justify-content: center;
-      height: 60vh;
+      height: 70vh;
       position: relative;
       bottom: 5rem;
       
