@@ -4,6 +4,7 @@ import Cards from './components/Cards'
 import Landing from './components/Landing'
 import Languages from './components/Languages'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -11,8 +12,9 @@ function App() {
     <>
       <Navbar/>
       <Landing/>
-      <Languages  />
+      <Languages/>
       <Cards/>
+      <Footer/>
     </>
   )
 }
