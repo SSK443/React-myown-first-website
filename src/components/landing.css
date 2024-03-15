@@ -1,74 +1,84 @@
-.container{
+.container {
   display: flex;
- text-align: center;
+  text-align: center;
   height: 50%;
   width: 100%;
   margin-top: 80px;
 
 
 }
-.box{
 
-height: 100%;
-width:70% ;
-margin: auto;
+.box {
+
+  height: 100%;
+  width: 70%;
+  margin: auto;
 }
-.box h1{
+
+.box h1 {
   height: 80px;
   font-size: 3rem;
- 
+
 }
-.box h2{
+
+.box h2 {
   line-height: 30px;
- 
+
 }
-.box button{
+
+.box button {
   position: relative;
-  margin-top:30px;
+  margin-top: 30px;
   border: none;
-  color:white;
+  color: white;
   background-color: #00B6d1;
   font-weight: bold;
   padding: 15px 30px;
   border-radius: 8px;
 }
-.box span{
-font-weight: 900;
-}
-@media (max-width:500px) {
-.container{
-  position: relative;
-  bottom: 6rem;
-  height: 15rem;
-  
 
-  
+.box span {
+  font-weight: 900;
 }
-.box{
-  width: 80%;
-  margin: auto;
-  
-}
-.box h1{
-  font-size: 1.7rem;
-  text-align: center;
- position: relative;
- top: 1rem;
-  padding: 0.4rem;
-  
-}
-.box h2{
-  position: relative;
-  top: 3rem;
-  font-size: 1.3rem;
-  text-align: justify;
-  padding: 0.5rem;
-  
-}
-.box button{
-  position: relative;
-  padding: 10px 10px;
-  border: none;
-  top: 2rem;
-}
+
+@media (max-width:500px) {
+  .container {
+    position: relative;
+    bottom: 6rem;
+    height: 15rem;
+
+
+
   }
+
+  .box {
+    width: 80%;
+    margin: auto;
+
+  }
+
+  .box h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    padding: 0.4rem;
+
+  }
+
+  .box h2 {
+    position: relative;
+    top: 3rem;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0.5rem;
+
+  }
+
+  .box button {
+    position: relative;
+    padding: 10px 10px;
+    border: none;
+    top: 2rem;
+  }
+}
